@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.StatsPage"
+             BackgroundColor="#001529">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="0" Padding="24">
+
+            <Label x:Name="ResultLabel"
+                   FontSize="42" FontAttributes="Bold"
+                   HorizontalOptions="Center" Margin="0,20,0,8"/>
+
+            <Label x:Name="NewRecordLabel"
+                   Text="שיא חדש - מספר המהלכים הקטן ביותר שלך"
+                   TextColor="#FFD700" FontSize="15" FontAttributes="Bold"
+                   HorizontalOptions="Center" Margin="0,0,0,16" IsVisible="False"/>
+
+            <Label Text="משחק נוכחי" TextColor="#FFD700" FontSize="16"
+                   FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <BoxView HeightRequest="1" BackgroundColor="#4488AA" Margin="0,8,0,12"/>
+
+            <Grid ColumnDefinitions="*, *" RowDefinitions="Auto, Auto, Auto" RowSpacing="8">
+                <Label Grid.Row="0" Grid.Column="0" Text="השחקן שלי"
+                       TextColor="#009ADA" FontSize="15" FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="יריב"
+                       TextColor="#AA3333" FontSize="15" FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="PlayerShotsLabel" Grid.Row="1" Grid.Column="0"
+                       TextColor="White" FontSize="14" HorizontalOptions="Center"/>
+                <Label x:Name="AIShotsLabel" Grid.Row="1" Grid.Column="1"
+                       TextColor="White" FontSize="14" HorizontalOptions="Center"/>
+                <Label x:Name="PlayerAccuracyLabel" Grid.Row="2" Grid.Column="0"
+                       TextColor="White" FontSize="14" HorizontalOptions="Center"/>
+                <Label x:Name="AIAccuracyLabel" Grid.Row="2" Grid.Column="1"
+                       TextColor="White" FontSize="14" HorizontalOptions="Center"/>
+            </Grid>
+
+            <StackLayout x:Name="OverallStatsSection" Margin="0,24,0,0">
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA" Margin="0,0,0,12"/>
+                <Label Text="סטטיסטיקות כלליות" TextColor="#FFD700" FontSize="16"
+                       FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                <ActivityIndicator x:Name="StatsLoader" IsRunning="True" IsVisible="True"
+                                   Color="White" HorizontalOptions="Center"/>
+                <Label x:Name="WinRateLabel" TextColor="White" FontSize="15"
+                       HorizontalOptions="Center" IsVisible="False"/>
+                <Label x:Name="TotalGamesLabel" TextColor="White" FontSize="15"
+                       HorizontalOptions="Center" IsVisible="False"/>
+                <Label x:Name="BestWinLabel" TextColor="#00FF88" FontSize="15"
+                       FontAttributes="Bold" HorizontalOptions="Center" IsVisible="False"/>
+            </StackLayout>
+
+            <StackLayout x:Name="HistorySection" Margin="0,24,0,0">
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA" Margin="0,0,0,12"/>
+                <Label Text="היסטוריית משחקים" TextColor="#FFD700" FontSize="16"
+                       FontAttributes="Bold" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                <CollectionView x:Name="HistoryList" HeightRequest="200">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid ColumnDefinitions="Auto, *, Auto, Auto" Padding="0,6,0,6">
+                                <Label Grid.Column="0" Text="{Binding WonIcon}"
+                                       FontSize="16" FontAttributes="Bold"
+                                       VerticalOptions="Center" Margin="0,0,8,0"/>
+                                <Label Grid.Column="1" Text="{Binding Date}"
+                                       TextColor="#AAAAAA" FontSize="13" VerticalOptions="Center"/>
+                                <Label Grid.Column="2" Text="{Binding ShotsText}"
+                                       TextColor="White" FontSize="13"
+                                       VerticalOptions="Center" Margin="0,0,8,0"/>
+                                <Label Grid.Column="3" Text="{Binding AccuracyText}"
+                                       TextColor="White" FontSize="13" VerticalOptions="Center"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <Grid ColumnDefinitions="*, *" Margin="0,30,0,20" ColumnSpacing="12">
+                <Button Grid.Column="0" Text="משחק חדש"
+                        FontSize="16" FontAttributes="Bold"
+                        BackgroundColor="#00AA44" TextColor="White"
+                        CornerRadius="12" HeightRequest="55"
+                        Clicked="NewGame_Click"/>
+                <Button Grid.Column="1" Text="תפריט ראשי"
+                        FontSize="16" FontAttributes="Bold"
+                        BackgroundColor="#007ACC" TextColor="White"
+                        CornerRadius="12" HeightRequest="55"
+                        Clicked="MainMenu_Click"/>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Battleship.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Battleship.Core.AI.AIPlayer">
+            שחקן AI עם שני מצבים:
+            
+              מצב חיפוש (Hunt):
+                יורה באקראי על רשת שחמט –
+                כיסוי מקסימלי, אף צוללת לא תחמוק.
+            
+              מצב ציד (Target):
+                מופעל אחרי פגיעה ראשונה.
+                מנסה 4 כיוונים, נועל כיוון אחרי פגיעה שנייה.
+                אחרי טביעה – חוזר למצב חיפוש.
+        </member>
+        <member name="M:Battleship.Core.AI.AIPlayer.DecideNextShot(Battleship.Core.Logic.Board)">
+            <summary>
+            מחליט על הירייה הבאה של ה-AI.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.AI.AIPlayer.ProcessShotResult(Battleship.Core.Models.GridLocation,Battleship.Core.Logic.ShotResult)">
+            מעדכן את ה-AI לאחר ירייה.
+            חייבים לקרוא לזה אחרי כל ירייה של ה-AI.
+        </member>
+        <member name="M:Battleship.Core.AI.AIPlayer.TryReverseDirection">
+            כשנחסמנו בכיוון – נסה את הכיוון ההפוך מהפגיעה הראשונה.
+        </member>
+        <member name="T:Battleship.Core.Logic.Board">
+            <summary>
+            מייצג לוח משחק של שחקן אחד.
+            אחראי על:
+              1. הנחת צוללות (עם בדיקת תקינות)
+              2. קבלת יריות ועדכון מצב
+              3. בדיקה האם כל הצוללות הושמדו
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Logic.Board.GetSubmarineCells(System.Int32)">
+            <summary>
+            מחזיר את כל מיקומי התאים של צוללת מסוימת לפי ID.
+            משמש לחשיפת הצוללת כולה כאשר היא טובעת.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Logic.Board.GetSubmarineIdAt(System.Int32,System.Int32)">
+            <summary>
+            מחזיר את ה-ID של הצוללת בתא מסוים.
+            -1 אם אין צוללת.
+            </summary>
+        </member>
+        <member name="T:Battleship.Core.Logic.Game">
+            <summary>
+            מנהל משחק שלם בין שני שחקנים.
+            אחראי על:
+              1. הגדרת שחקנים ולוחות
+              2. עיבוד יריות
+              3. החלפת תורות
+              4. זיהוי ניצחון
+              5. ניהול סטטיסטיקה
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.SetupPlayers(Battleship.Core.Models.Player,Battleship.Core.Models.Player)">
+            <summary>
+            מגדיר את שני השחקנים ומכין לוחות.
+            יש לקרוא לפני כל שלב אחר.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.PlaceSubmarine(Battleship.Core.Models.Player,Battleship.Core.Models.Submarine)">
+            מניח צוללת על לוח שחקן.
+            מחזיר false אם ההנחה לא תקינה.
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.StartGame">
+            מסמן שהמשחק מוכן להתחיל.
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.ProcessShot(Battleship.Core.Models.GridLocation)">
+            מעבד ירייה של השחקן הנוכחי.
+              1. ירייה על לוח היריב
+              2. שמירת הירייה
+              3. עדכון סטטיסטיקה
+              4. בדיקת ניצחון
+              5. החלפת תור אם לא ניצח
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.GetAccuracy(Battleship.Core.Models.Player)">
+            מחשב אחוז דיוק של שחקן במשחק זה.
+        </member>
+        <member name="M:Battleship.Core.Logic.Game.GetShotCount(Battleship.Core.Models.Player)">
+            מחזיר מספר יריות של שחקן במשחק זה.
+        </member>
+        <member name="T:Battleship.Core.Models.BoardCell">
+            <summary>
+            מייצג תא בודד בלוח המשחק.
+            כל תא יודע:
+              1. האם יש בו צוללת (ואיזו)
+              2. האם כבר ירו עליו
+              3. מה התוצאה של הירייה (פגיעה / פספוס)
+            </summary>
+        </member>
+        <member name="P:Battleship.Core.Models.BoardCell.HasSubmarine">
+            <summary>
+            האם יש צוללת בתא זה.
+            נקבע כאשר מניחים צוללת על הלוח.
+            </summary>
+        </member>
+        <member name="P:Battleship.Core.Models.BoardCell.SubmarineId">
+            <summary>
+            ה-ID של הצוללת שנמצאת בתא.
+            -1 אם אין צוללת.
+            </summary>
+        </member>
+        <member name="P:Battleship.Core.Models.BoardCell.WasShot">
+            <summary>
+            האם כבר ירו על תא זה.
+            לא ניתן לירות על אותו תא פעמיים.
+            </summary>
+        </member>
+        <member name="P:Battleship.Core.Models.BoardCell.IsHit">
+            <summary>
+            האם הירייה על תא זה פגעה בצוללת.
+            רלוונטי רק אם WasShot == true.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Models.BoardCell.PlaceSubmarine(System.Int32)">
+            <summary>
+            מניח צוללת על תא זה.
+            נקרא מ-Board.PlaceSubmarine בלבד.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Models.BoardCell.ReceiveShot">
+            <summary>
+            מעבד ירייה על תא זה.
+            מחזיר true אם פגע בצוללת, false אם פספס.
+            זורק חריגה אם ירו על התא כבר.
+            </summary>
+        </member>
+        <member name="T:Battleship.Core.Models.Player">
+            <summary>
+            מייצג שחקן במשחק.
+            
+            שינויים מהגרסה הקודמת:
+              - הסרת Password (Firebase Auth מנהל זאת)
+              - הוספת AddHit / AddMiss לסטטיסטיקה שוטפת
+              - תיקון UpdateBestWin לעדכן רק אם זה שיא חדש
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Player.AddHit">
+            <summary>מוסיף פגיעה. נקרא מ-Game.ProcessShot.</summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Player.AddMiss">
+            <summary>מוסיף פספוס. נקרא מ-Game.ProcessShot.</summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Player.GetCurrentAccuracy">
+            <summary>
+            מחשב אחוז דיוק במשחק הנוכחי.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Player.UpdateBestWin(System.Int32)">
+            <summary>
+            מעדכן שיא מהלכים – רק אם זה שיא חדש.
+            </summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Player.ResetCurrentStats">
+            <summary>
+            מאפס סטטיסטיקת משחק נוכחי לקראת משחק חדש.
+            הסטטיסטיקה המצטברת לא מאופסת.
+            </summary>
+        </member>
+        <member name="T:Battleship.Core.Models.Shot">
+            <summary>
+            מייצג ירייה בודדת במשחק.
+            
+            תיקון מהגרסה הקודמת:
+            כל השדות היו private ללא getters –
+            עכשיו הכל חשוף דרך Properties.
+            </summary>
+        </member>
+        <member name="P:Battleship.Core.Models.Shot.ShotId">
+            <summary>מספר מזהה ייחודי של הירייה.</summary>
+        </member>
+        <member name="P:Battleship.Core.Models.Shot.TargetLocation">
+            <summary>המיקום שאליו נורתה הירייה.</summary>
+        </member>
+        <member name="P:Battleship.Core.Models.Shot.IsHit">
+            <summary>האם הירייה פגעה בצוללת.</summary>
+        </member>
+        <member name="P:Battleship.Core.Models.Shot.IsSunk">
+            <summary>האם הירייה גרמה לטביעת צוללת.</summary>
+        </member>
+        <member name="P:Battleship.Core.Models.Shot.ShooterId">
+            <summary>ה-ID של השחקן שירה. חשוב לסנכרון Firebase.</summary>
+        </member>
+        <member name="M:Battleship.Core.Models.Shot.#ctor(System.Int32,Battleship.Core.Models.GridLocation,Battleship.Core.Logic.ShotResult,System.Int32)">
+            <summary>
+            יוצר ירייה חדשה.
+            </summary>
+        </member>
+    </members>
+</doc>

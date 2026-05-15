@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project</name>
+    </assembly>
+    <members>
+        <member name="M:Project.GamePage.GeminiTurnAsync">
+            <summary>
+            תור Gemini — שולח את מצב הלוח ומקבל ירייה.
+            אם Gemini נכשל — חוזר לאלגוריתם הרגיל כגיבוי.
+            </summary>
+        </member>
+        <member name="M:Project.GeminiService.GetNextShotAsync(System.Int32[0:,0:])">
+            <summary>
+            מקבל את מצב הלוח ומחזיר את הירייה הבאה של Gemini.
+            </summary>
+        </member>
+        <member name="M:Project.GeminiService.BuildBoardJson(System.Int32[0:,0:])">
+            <summary>
+            בונה JSON של מצב הלוח.
+            0=פנוי, 1=פספוס, 2=פגיעה, 3=טבוע
+            </summary>
+        </member>
+        <member name="M:Project.GeminiService.ParseResponse(System.String)">
+            <summary>
+            מפרסר את תשובת Gemini ומחלץ row ו-col.
+            </summary>
+        </member>
+    </members>
+</doc>
