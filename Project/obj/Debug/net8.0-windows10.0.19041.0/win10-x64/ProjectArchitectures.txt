@@ -1,0 +1,2 @@
+D:\YodBet\Battleship.Core\Battleship.Core.csproj;neutral
+D:\YodBet\Project\Project.csproj;x64

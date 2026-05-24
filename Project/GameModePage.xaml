@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.GameModePage"
+             BackgroundColor="#001529">
+    <VerticalStackLayout Spacing="20"
+                         Padding="40"
+                         VerticalOptions="Center">
+        <Label Text="בחר מצב משחק"
+               TextColor="White"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+        <!-- מול AI רגיל -->
+        <Frame BackgroundColor="#001F3F"
+               CornerRadius="16"
+               Padding="20"
+               HasShadow="True">
+            <StackLayout Spacing="8">
+                <Label Text="מול יריב AI"
+                       TextColor="#009ADA"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label Text="שחק מול אלגוריתם חכם"
+                       TextColor="#AAAAAA"
+                       FontSize="13"
+                       HorizontalOptions="Center"/>
+                <Button x:Name="AIBtn"
+                        Text="התחל"
+                        BackgroundColor="#009ADA"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="48"
+                        Margin="0,8,0,0"
+                        Clicked="PlayVsAI_Click"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- מול Gemini AI -->
+        <Frame BackgroundColor="#0D2200"
+               CornerRadius="16"
+               Padding="20"
+               HasShadow="True">
+            <StackLayout Spacing="8">
+                <Label Text="מול Gemini AI 🧠"
+                       TextColor="#44FF88"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label Text="שחק מול בינה מלאכותית אמיתית"
+                       TextColor="#AAAAAA"
+                       FontSize="13"
+                       HorizontalOptions="Center"/>
+                <Button x:Name="GeminiBtn"
+                        Text="התחל"
+                        BackgroundColor="#228833"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="48"
+                        Margin="0,8,0,0"
+                        Clicked="PlayVsGemini_Click"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- מול שחקן אמיתי -->
+        <Frame BackgroundColor="#1F0000"
+               CornerRadius="16"
+               Padding="20"
+               HasShadow="True">
+            <StackLayout Spacing="8">
+                <Label Text="מול שחקן אמיתי"
+                       TextColor="#FF6644"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label Text="התחבר לשחקן אחר דרך האינטרנט"
+                       TextColor="#AAAAAA"
+                       FontSize="13"
+                       HorizontalOptions="Center"/>
+                <Button x:Name="MultiBtn"
+                        Text="חפש יריב"
+                        BackgroundColor="#AA3333"
+                        TextColor="White"
+                        CornerRadius="10"
+                        HeightRequest="48"
+                        Margin="0,8,0,0"
+                        Clicked="PlayVsPlayer_Click"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- מתנה לחיפוש יריב -->
+        <StackLayout x:Name="WaitingSection"
+                     IsVisible="False"
+                     Spacing="12"
+                     Margin="0,16,0,0">
+            <ActivityIndicator x:Name="WaitingSpinner"
+                               IsRunning="False"
+                               Color="#009ADA"
+                               HorizontalOptions="Center"/>
+            <Label x:Name="WaitingLabel"
+                   TextColor="#FFD700"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            <Button x:Name="CancelBtn"
+                    Text="ביטול"
+                    BackgroundColor="#555"
+                    TextColor="White"
+                    CornerRadius="10"
+                    HeightRequest="44"
+                    Clicked="Cancel_Click"/>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

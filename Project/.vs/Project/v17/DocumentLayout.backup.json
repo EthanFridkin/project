@@ -1,0 +1,440 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\YodBet\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\gamemodepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:gamemodepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\instructionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:instructionspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\logic\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\models\\orientation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\statspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:statspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\statspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:statspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\instructionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:instructionspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\gamemodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:gamemodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|d:\\yodbet\\project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D9DAE008-6CA7-4C9E-968C-A53850FC82C3}|Project.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\models\\submarine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\models\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\logic\\fleetfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F42671E1-B4C6-4E96-AFCE-08A6D8CA4142}|..\\Battleship.Core\\Battleship.Core.csproj|d:\\yodbet\\battleship.core\\ai\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Models\\Player.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Models\\Player.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Models\\Player.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:32:37.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogInPage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\LogInPage.xaml.cs",
+              "RelativeDocumentMoniker": "LogInPage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\LogInPage.xaml.cs",
+              "RelativeToolTip": "LogInPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:48:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InstructionsPage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\InstructionsPage.xaml",
+              "RelativeDocumentMoniker": "InstructionsPage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\InstructionsPage.xaml",
+              "RelativeToolTip": "InstructionsPage.xaml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwEgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T10:48:29.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\GeminiService.cs",
+              "RelativeDocumentMoniker": "GeminiService.cs",
+              "ToolTip": "D:\\YodBet\\Project\\GeminiService.cs",
+              "RelativeToolTip": "GeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:48:22.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\GamePage.xaml",
+              "RelativeDocumentMoniker": "GamePage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\GamePage.xaml",
+              "RelativeToolTip": "GamePage.xaml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAwLoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T10:48:10.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameModePage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\GameModePage.xaml.cs",
+              "RelativeDocumentMoniker": "GameModePage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\GameModePage.xaml.cs",
+              "RelativeToolTip": "GameModePage.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:48:02.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamePage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\GamePage.xaml.cs",
+              "RelativeDocumentMoniker": "GamePage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\GamePage.xaml.cs",
+              "RelativeToolTip": "GamePage.xaml.cs",
+              "ViewState": "AgIAAIMDAAAAAAAAAAAmwJYDAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T22:30:26.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T10:48:56.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Orientation.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Models\\Orientation.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Models\\Orientation.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Models\\Orientation.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Models\\Orientation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:52:51.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:49:02.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Logic\\Game.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Logic\\Game.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Logic\\Game.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Logic\\Game.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:07:30.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\YodBet\\Project\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:49:07.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatsPage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\StatsPage.xaml.cs",
+              "RelativeDocumentMoniker": "StatsPage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\StatsPage.xaml.cs",
+              "RelativeToolTip": "StatsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:49:26.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameModePage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\GameModePage.xaml",
+              "RelativeDocumentMoniker": "GameModePage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\GameModePage.xaml",
+              "RelativeToolTip": "GameModePage.xaml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T10:47:55.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatsPage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\StatsPage.xaml",
+              "RelativeDocumentMoniker": "StatsPage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\StatsPage.xaml",
+              "RelativeToolTip": "StatsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-04T00:58:05.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:46:18.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-29T10:45:35.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Submarine.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Models\\Submarine.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Models\\Submarine.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Models\\Submarine.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Models\\Submarine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:45:21.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InstructionsPage.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\InstructionsPage.xaml.cs",
+              "RelativeDocumentMoniker": "InstructionsPage.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\InstructionsPage.xaml.cs",
+              "RelativeToolTip": "InstructionsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T20:57:17.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogInPage.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\LogInPage.xaml",
+              "RelativeDocumentMoniker": "LogInPage.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\LogInPage.xaml",
+              "RelativeToolTip": "LogInPage.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwEMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T21:40:41.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerStatus.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Models\\PlayerStatus.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Models\\PlayerStatus.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Models\\PlayerStatus.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Models\\PlayerStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:45:09.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FleetFactory.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\Logic\\FleetFactory.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\Logic\\FleetFactory.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\Logic\\FleetFactory.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\Logic\\FleetFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:48:05.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AIPlayer.cs",
+              "DocumentMoniker": "D:\\YodBet\\Battleship.Core\\AI\\AIPlayer.cs",
+              "RelativeDocumentMoniker": "..\\Battleship.Core\\AI\\AIPlayer.cs",
+              "ToolTip": "D:\\YodBet\\Battleship.Core\\AI\\AIPlayer.cs",
+              "RelativeToolTip": "..\\Battleship.Core\\AI\\AIPlayer.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAIwOwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:48:12.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\YodBet\\Project\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\YodBet\\Project\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T21:48:08.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "D:\\YodBet\\Project\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T21:48:26.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FirebaseService.cs",
+              "DocumentMoniker": "D:\\YodBet\\Project\\FirebaseService.cs",
+              "RelativeDocumentMoniker": "FirebaseService.cs",
+              "ToolTip": "D:\\YodBet\\Project\\FirebaseService.cs",
+              "RelativeToolTip": "FirebaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T20:47:39.459Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

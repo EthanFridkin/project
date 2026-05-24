@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.InstructionsPage"
+             BackgroundColor="#001529">
+
+    <Grid RowDefinitions="Auto, *, Auto"
+          Padding="24,20,24,20">
+
+        <Label Grid.Row="0"
+               Text="הוראות הפעלה"
+               TextColor="White"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,0,0,16"/>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="16">
+
+                <Label Text="ברוכים הבאים למשחק שלי!"
+                       TextColor="#FFD700"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <Label TextColor="White" FontSize="15" LineHeight="1.5">
+                    <Label.Text>עלייך לפזר את הצוללות בצורה הטובה ביותר כך שליריב יקח כמה שיותר מהלכים למצוא את כל הצוללות. לאחר שסיימת למקם את הצוללות לחץ על כפתור ההתחלה.</Label.Text>
+                </Label>
+
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA"/>
+
+                <Label TextColor="White" FontSize="15" LineHeight="1.5">
+                    <Label.Text>לכל שחקן יש 30 שניות לבצע את התור שלו, לאחר מכן התור עובר לצד השני. שים לב לעמוד בזמנים.</Label.Text>
+                </Label>
+
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA"/>
+
+                <Label TextColor="White" FontSize="15" LineHeight="1.5">
+                    <Label.Text>כל תור עלייך לבחור משבצת בלוח ואליה אתה תירה. אם פגעת בצוללת של היריב תצוץ הודעה בהתאם והמשבצת תיצבע בכתום. אם פספסת תצוץ הודעה בהתאם והמשבצת תיצבע באפור. תזכור כי אם מצאת משבצת המכילה צוללת תירה למשבצות הסמוכות על מנת לחשוף את כולה.</Label.Text>
+                </Label>
+
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA"/>
+
+                <Label TextColor="White" FontSize="15" LineHeight="1.5">
+                    <Label.Text>השחקן שיחשוף ליריב את כל הצוללות קודם ינצח.</Label.Text>
+                </Label>
+
+                <BoxView HeightRequest="1" BackgroundColor="#4488AA"/>
+
+                <Label Text="בהצלחה!"
+                       TextColor="#00FF88"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,8,0,0"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Button Grid.Row="2"
+                Text="חזור"
+                FontSize="18"
+                FontAttributes="Bold"
+                BackgroundColor="#007ACC"
+                TextColor="White"
+                CornerRadius="12"
+                HeightRequest="55"
+                Margin="0,16,0,0"
+                Clicked="Back_Click"/>
+
+    </Grid>
+</ContentPage>

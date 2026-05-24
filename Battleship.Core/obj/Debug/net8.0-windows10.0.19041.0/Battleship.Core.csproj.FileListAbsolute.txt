@@ -1,0 +1,13 @@
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.csproj.AssemblyReference.cache
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.AssemblyInfoInputs.cache
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.AssemblyInfo.cs
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.csproj.CoreCompileInputs.cache
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.sourcelink.json
+D:\YodBet\Battleship.Core\bin\Debug\net8.0-windows10.0.19041.0\Battleship.Core.deps.json
+D:\YodBet\Battleship.Core\bin\Debug\net8.0-windows10.0.19041.0\Battleship.Core.dll
+D:\YodBet\Battleship.Core\bin\Debug\net8.0-windows10.0.19041.0\Battleship.Core.pdb
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.dll
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\refint\Battleship.Core.dll
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\Battleship.Core.pdb
+D:\YodBet\Battleship.Core\obj\Debug\net8.0-windows10.0.19041.0\ref\Battleship.Core.dll
