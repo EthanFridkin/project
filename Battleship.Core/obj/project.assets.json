@@ -7843,11 +7843,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj",
+      "projectUniqueName": "D:\\project\\Battleship.Core\\Battleship.Core.csproj",
       "projectName": "Battleship.Core",
-      "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj",
+      "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj",
       "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-      "outputPath": "D:\\YodBet\\Battleship.Core\\obj\\",
+      "outputPath": "D:\\project\\Battleship.Core\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

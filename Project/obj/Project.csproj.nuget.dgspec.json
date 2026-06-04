@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YodBet\\Project\\Project.csproj": {}
+    "D:\\project\\Project\\Project.csproj": {}
   },
   "projects": {
-    "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj": {
+    "D:\\project\\Battleship.Core\\Battleship.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj",
+        "projectUniqueName": "D:\\project\\Battleship.Core\\Battleship.Core.csproj",
         "projectName": "Battleship.Core",
-        "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj",
+        "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj",
         "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "D:\\YodBet\\Battleship.Core\\obj\\",
+        "outputPath": "D:\\project\\Battleship.Core\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -235,14 +235,14 @@
         }
       }
     },
-    "D:\\YodBet\\Project\\Project.csproj": {
+    "D:\\project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YodBet\\Project\\Project.csproj",
+        "projectUniqueName": "D:\\project\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "D:\\YodBet\\Project\\Project.csproj",
+        "projectPath": "D:\\project\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "D:\\YodBet\\Project\\obj\\",
+        "outputPath": "D:\\project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -268,32 +268,32 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj": {
-                "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj"
+              "D:\\project\\Battleship.Core\\Battleship.Core.csproj": {
+                "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj"
               }
             }
           },
           "net8.0-ios18.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj": {
-                "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj"
+              "D:\\project\\Battleship.Core\\Battleship.Core.csproj": {
+                "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj"
               }
             }
           },
           "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj": {
-                "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj"
+              "D:\\project\\Battleship.Core\\Battleship.Core.csproj": {
+                "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj": {
-                "projectPath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj"
+              "D:\\project\\Battleship.Core\\Battleship.Core.csproj": {
+                "projectPath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj"
               }
             }
           }

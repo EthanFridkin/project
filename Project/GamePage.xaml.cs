@@ -352,20 +352,18 @@ namespace Project
             _phase = GamePhase.Playing;
 
             StartGameBtn.IsVisible = false;
-
             if (_isMulti)
             {
-                // במולטיפלייר — קובע מי מתחיל לפי מי שחקן 1
+                await _firebase.SetPlayerReadyAsync();
+                UpdateStatusLabel("ממתין ליריב...", "#AA8800");
+
+                while (!await _firebase.BothPlayersReadyAsync())
+                    await Task.Delay(2000);
+
                 _isMyTurn = _firebase.IsPlayer1;
                 UpdateStatusLabel(_isMyTurn ? "תורך לירות" : $"תור {_opponentName}",
                                   _isMyTurn ? "#009ADA" : "#AA3333");
-                // מפעיל לולאת Polling לקבלת יריות מהיריב
                 StartPolling();
-            }
-            else
-            {
-                // מול AI — תמיד מתחיל השחקן
-                UpdateStatusLabel("תורך לירות", "#009ADA");
             }
             // מאפס ומפעיל את טיימר התור
             ResetTimer();
@@ -471,7 +469,6 @@ namespace Project
 
             if (_isMulti)
             {
-                // מעדכן שהתור עבר ושולח את הירייה ל-Firebase
                 _isMyTurn = false;
                 await _firebase.SendShotAsync(row, col, result.ToString());
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STgOiggJ6yM=",
+  "dgSpecHash": "S+l7eRRN6Lc=",
   "success": true,
-  "projectFilePath": "D:\\YodBet\\Battleship.Core\\Battleship.Core.csproj",
+  "projectFilePath": "D:\\project\\Battleship.Core\\Battleship.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\יונתן\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\יונתן\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
